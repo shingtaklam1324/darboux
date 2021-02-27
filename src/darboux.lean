@@ -189,6 +189,8 @@ these, and allowing for junk output for unbounded functions
 def lower_integral : ℝ := Sup { x | ∃ D : dissection a b, D.lower_sum f = x }
 def upper_integral : ℝ := Inf { x | ∃ D : dissection a b, D.upper_sum f = x }
 
+-- Todo: show Inf/Sup exists (ie bounded, nonempty)
+
 /-!
 # Integrable
 
